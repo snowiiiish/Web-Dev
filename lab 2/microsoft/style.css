@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(38, 38, 38);
+}
+
+.header {
+    height: 55px;
+    width: 85%;
+    margin: 0 auto;
+
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.nav {
+    margin-top: 4px;
+    margin-left: 30px;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 5px;
+    padding: 6px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+}
+
+.nav2 {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.nav2 li {
+    padding-top: 1px;
+}
+
+button {
+    all: unset;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+img.user {
+    height: 30px;
+    vertical-align: middle;
+}
+
+input {
+    padding: 5px;
+}
+
+select {
+    border: none;
+}
+
+.main {
+    width: 83%;
+    margin: 0 auto;
+}
+
+.main-text {
+    display: flex;
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWLAmj?ver=35aa&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true);
+    background-position: center;
+    height: 600px;
+}
+.p {
+    margin-top: 190px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.p p {
+    margin-bottom: 10px;
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+}
+
+a.first-a {
+    font-size: 32px;
+    font-weight: 550;
+}
+
+a.third-a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 550;
+    margin-top: 10px;
+}
+
+
+
+.blocks {
+    margin: 20px auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 22%;
+    padding: 0;
+    margin-left: 5px;
+  }
+  
+.card {
+    padding: 16px;
+    text-align: left;
+}
+
+.card img {
+    width: 320px;
+}
+
+h3 {
+    margin-top: 30px;
+    font-weight: 500;
+}
+.card a {
+    color: #0067B8;
+    text-decoration: none;
+    font-weight: 550;
+    padding: 3px;
+    display: inline-block;
+}
+
+
