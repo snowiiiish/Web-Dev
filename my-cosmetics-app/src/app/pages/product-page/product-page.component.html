@@ -1,7 +1,0 @@
-<div class="main">
-    <div class="input">
-        <input class="search" type="text" placeholder="Search items..." [(ngModel)]="term" />
-    </div>
-    <p *ngIf="loading">Loading...</p>
-    <app-product-list [term]="term" [items]="items"></app-product-list>
-</div>
