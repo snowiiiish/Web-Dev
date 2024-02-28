@@ -17,7 +17,8 @@ export const products = [
     images: ['https://resources.cdn-kaspi.kz/img/m/p/h37/h5e/84630322380830.jpg?format=gallery-medium',
     'https://resources.cdn-kaspi.kz/img/m/p/h52/h3f/84630322446366.jpg?format=gallery-medium'],
     price: 1758, 
-    description: 'тип: кушон, тип кожи: для всех типов, оттенок:натуральный бежевый, эффект: увлажнение,питание, ,защита от солнечных лучей, 
+    rating: 5,
+    description: 'тип: кушон, тип кожи: для всех типов, оттенок:натуральный бежевый, эффект: увлажнение,питание, ,защита от солнечных лучей',
     link:'https://kaspi.kz/shop/p/drawshe-cushion-3-in-1-kushon-01-30-ml-115039677/?c=750000000' 
   },
   { 

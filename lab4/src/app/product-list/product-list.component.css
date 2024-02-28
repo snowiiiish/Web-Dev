@@ -1,33 +1,66 @@
-.title_name {
-  display:inline-flex;
-  justify-content: left;
-}
-.img-container img{
-  height: auto; 
-  width: auto; 
-  margin-left: 60px;
-  max-width: 100px; 
-  max-height: 90px;
-  display: inline;
-  cursor: pointer;
-}
-.product-rating{
-  font-style: bold;
-}
-button{
-  margin:20px;
-  margin-bottom: 20px;
-  display: inline-block;
-}
-.btm{
-  display: inline-block;
+/* CSS */
+
+.products-heading {
+    margin-bottom: 20px;
 }
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.title_name img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.img-container {
+    width: min-content;
+    height: auto;
+}
+
+.items h3 {
+    margin-bottom: 10px;
+}
+
+.items a {
+    color: #333;
+    text-decoration: none;
+}
+
+.bt m {
+    display: flex;
+    align-items: center;
+}
+
+.bt m a {
+    margin-right: 20px;
+}
+
+.bt m button {
+    position: relative;
+    top: -19px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
 
 /*
 Copyright Google LLC. All Rights Reserved.
